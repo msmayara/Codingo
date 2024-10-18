@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    let newTricks = 6
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
@@ -16,15 +17,15 @@ struct ContentView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 60, height: 60)
-                Text("Code wizard!")
+                Text(L10n.Award.title)
                     .font(.title)
                     .fontWeight(.bold)
-                Text("You’ve just added 6 new tricks to your skills!")
+                Text(L10n.Award.subtitle(newTricks))
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                 
                 NavigationLink(destination: CodingQuestsView()) {
-                    Text("Unleash more magic!")
+                    Text(L10n.Award.button)
                         .font(.headline)
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)

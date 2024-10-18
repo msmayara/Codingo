@@ -1,0 +1,15 @@
+// MARK: - ContentView
+"Award.title" = "Mago do código!";
+"Award.subtitle" = "Você acabou de adicionar %@ novos truques ao seu repertório!";
+"Award.button" = "Libere mais magia!";
+
+// MARK: - CodingQuests
+"CodingQuests.title" = "Missões de Código";
+"CodingQuests.startedOn" = "Iniciado em %@";
+"CodingQuests.notStarted" = "Ainda não iniciado";
+"CodingQuests.accessibility" = "O Reino Encantado da Acessibilidade";
+"CodingQuests.errorHandling" = "Runas da Manipulação de Erros";
+"CodingQuests.internationalization" = "O Feitiço das Muitas Línguas";
+"CodingQuests.protocols" = "Poções e Protocolos";
+"CodingQuests.memoryManagement" = "O Guia do Alquimista para Gerenciamento de Memória";
+"CodingQuests.grandCentralDispatch" = "Guardiões da Grand Central Dispatch";

@@ -1,0 +1,19 @@
+// MARK: - Codingo
+"Codingo.title" = "Codingo";
+
+// MARK: - ContentView
+"Award.title" = "Code wizard!";
+"Award.subtitle" = "You’ve just added %@ new tricks to your skills!";
+"Award.button" = "Unleash more magic!";
+
+
+// MARK: - CodingQuests
+"CodingQuests.title" = "Coding Quests";
+"CodingQuests.startedOn" = "Started on %@";
+"CodingQuests.notStarted" = "Not started yet";
+"CodingQuests.accessibility" = "The Enchanted Realm of Accessibility";
+"CodingQuests.errorHandling" = "Runes of Error Handling";
+"CodingQuests.internationalization" = "The Spell of Many Tongues";
+"CodingQuests.protocols" = "Potions and Protocols";
+"CodingQuests.memoryManagement" = "The Alchemist's Guide to Memory Management";
+"CodingQuests.grandCentralDispatch" = "Guardians of Grand Central Dispatch";

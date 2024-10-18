@@ -12,18 +12,19 @@ struct CodingQuestsView: View {
         NavigationView {
             ScrollView {
                 VStack(spacing: 16) {
-                    QuestItemView(title: "The Spell of Many Tongues", startDate: "October 15, 2024")
-                    QuestItemView(title: "Runes of Error Handling", startDate: "January 31, 2024")
-                    QuestItemView(title: "The Enchanted Realm of Accessibility", startDate: "June 18, 2023")
-                    QuestItemView(title: "Potions and Protocols", startDate: "August 7, 2022")
-                    QuestItemView(title: "The Alchemist's Guide to Memory Management")
-                    QuestItemView(title: "Guardians of Grand Central Dispatch")
+                    QuestItemView(title: L10n.CodingQuests.internationalization, startDate: "October 15, 2024")
+                    QuestItemView(title: L10n.CodingQuests.errorHandling, startDate: "January 31, 2024")
+                    QuestItemView(title: L10n.CodingQuests.accessibility, startDate: "June 18, 2023")
+                    QuestItemView(title: L10n.CodingQuests.protocols, startDate: "August 7, 2022")
+                    QuestItemView(title: L10n.CodingQuests.memoryManagement)
+                    QuestItemView(title: L10n.CodingQuests.grandCentralDispatch)
                 }
                 .padding()
             }
             .background(Color(UIColor.secondarySystemBackground))
             .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle("Coding Quests")        }
+            .navigationTitle(L10n.CodingQuests.title)
+        }
     }
 }
 
@@ -42,11 +43,11 @@ struct QuestItemView: View {
                 .font(.body)
                 .fontWeight(.semibold)
             if let startDate = startDate {
-                Text("Started on \(startDate)")
+                Text(L10n.CodingQuests.startedOn(startDate))
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             } else {
-                Text("Not started yet")
+                Text(L10n.CodingQuests.notStarted)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }

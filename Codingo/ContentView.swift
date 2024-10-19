@@ -17,15 +17,15 @@ struct ContentView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 60, height: 60)
-                Text(L10n.Award.title)
+                Text("Award.title")
                     .font(.title)
                     .fontWeight(.bold)
-                Text(L10n.Award.subtitle(newTricks))
+                Text("Award.subtitle\(newTricks)")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                 
                 NavigationLink(destination: CodingQuestsView()) {
-                    Text(L10n.Award.button)
+                    Text("Award.button")
                         .font(.headline)
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)

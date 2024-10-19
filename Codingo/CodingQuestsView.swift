@@ -12,12 +12,12 @@ struct CodingQuestsView: View {
         NavigationView {
             ScrollView {
                 VStack(spacing: 16) {
-                    QuestItemView(title: L10n.CodingQuests.internationalization, startDate: Date())
-                    QuestItemView(title: L10n.CodingQuests.errorHandling)
-                    QuestItemView(title: L10n.CodingQuests.accessibility)
-                    QuestItemView(title: L10n.CodingQuests.protocols)
-                    QuestItemView(title: L10n.CodingQuests.memoryManagement)
-                    QuestItemView(title: L10n.CodingQuests.grandCentralDispatch)
+                    QuestItemView(title: "CodingQuests.internationalization", startDate: Date())
+                    QuestItemView(title: "CodingQuests.errorHandling")
+                    QuestItemView(title: "CodingQuests.accessibility")
+                    QuestItemView(title: "CodingQuests.protocols")
+                    QuestItemView(title: "CodingQuests.memoryManagement")
+                    QuestItemView(title: "CodingQuests.grandCentralDispatch")
                 }
                 .padding()
             }
@@ -29,7 +29,7 @@ struct CodingQuestsView: View {
 }
 
 struct QuestItemView: View {
-    let title: String
+    let title: LocalizedStringKey
     let startDate: Date?
     let locale: Locale
     
@@ -38,7 +38,7 @@ struct QuestItemView: View {
         return DateFormatter.localizedQuestDateFormatter(for: locale).string(from: date)
     }
     
-    init(title: String, startDate: Date? = nil, locale: Locale = .current) {
+    init(title: LocalizedStringKey, startDate: Date? = nil, locale: Locale = .current) {
         self.title = title
         self.startDate = startDate
         self.locale = locale
@@ -50,7 +50,7 @@ struct QuestItemView: View {
                 .font(.body)
                 .fontWeight(.semibold)
             if startDate != nil {
-                Text(L10n.CodingQuests.startedOn(formattedDate))
+                Text(String(localized: "CodingQuests.startedOn \(formattedDate)"))
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             } else {
@@ -81,11 +81,12 @@ extension DateFormatter {
 struct QuestItemView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            QuestItemView(title: "The Enchanted Realm of Accessibility", startDate: Date(), locale: Locale(identifier: "en_US"))
+            QuestItemView(title: "CodingQuests.accessibility", startDate: Date(), locale: Locale(identifier: "en_US"))
                 .previewDisplayName("English")
             
-            QuestItemView(title: "O Reino Encantado da Acessibilidade", startDate: Date(), locale: Locale(identifier: "pt_BR"))
+            QuestItemView(title: "CodingQuests.accessibility", startDate: Date(), locale: Locale(identifier: "pt_BR"))
                 .previewDisplayName("Portuguese")
+                .environment(\.locale, .init(identifier: "pt_br"))
             
             QuestItemView(title: "Upcoming Quest", startDate: nil, locale: Locale(identifier: "en_US"))
                 .previewDisplayName("No Date")

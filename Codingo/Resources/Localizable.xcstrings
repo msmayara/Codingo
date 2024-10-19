@@ -1,0 +1,255 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Award.button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unleash more magic!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libere mais magia!"
+          }
+        }
+      }
+    },
+    "Award.subtitle%lld" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You’ve just added %lld new trick to your skills!"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You’ve just added %lld new tricks to your skills!"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Você acabou de adicionar %lld novo truque ao seu repertório!"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Você acabou de adicionar %lld novos truques ao seu repertório!"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Award.title" : {
+      "comment" : "MARK: - ContentView",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code wizard!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mago do código!"
+          }
+        }
+      }
+    },
+    "Codingo.title" : {
+      "comment" : "MARK: - Codingo",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codingo"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codingo"
+          }
+        }
+      }
+    },
+    "CodingQuests.accessibility" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Enchanted Realm of Accessibility"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Reino Encantado da Acessibilidade"
+          }
+        }
+      }
+    },
+    "CodingQuests.errorHandling" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runes of Error Handling"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runas da Manipulação de Erros"
+          }
+        }
+      }
+    },
+    "CodingQuests.grandCentralDispatch" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardians of Grand Central Dispatch"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardiões da Grand Central Dispatch"
+          }
+        }
+      }
+    },
+    "CodingQuests.internationalization" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Spell of Many Tongues"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Feitiço das Muitas Línguas"
+          }
+        }
+      }
+    },
+    "CodingQuests.memoryManagement" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Alchemist's Guide to Memory Management"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Guia do Alquimista para Gerenciamento de Memória"
+          }
+        }
+      }
+    },
+    "CodingQuests.notStarted" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not started yet"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ainda não iniciado"
+          }
+        }
+      }
+    },
+    "CodingQuests.protocols" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potions and Protocols"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poções e Protocolos"
+          }
+        }
+      }
+    },
+    "CodingQuests.startedOn %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Started on %@"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Iniciado em %@"
+          }
+        }
+      }
+    },
+    "CodingQuests.title" : {
+      "comment" : "MARK: - CodingQuests",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coding Quests"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missões de Código"
+          }
+        }
+      }
+    },
+    "Upcoming Quest" : {
+
+    }
+  },
+  "version" : "1.0"
+}
